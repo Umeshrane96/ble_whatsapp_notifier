@@ -128,7 +128,7 @@ async def main():
                 print(f"[{timestamp}] Device not detected (miss {miss_count}/{MISS_THRESHOLD})")
                 if was_detected and miss_count >= MISS_THRESHOLD:
                     message = (
-                        f"� Home Minister left home! "
+                        f"🚶 Home Minister left home! "
                         f"Time: {time.strftime('%Y-%m-%d %H:%M:%S')}"
                     )
                     print(f"  Sending 'out of range' Telegram notification...")
