@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+*.pyc
+ble_state.json
+.env
